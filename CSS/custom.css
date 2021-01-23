@@ -1,12 +1,12 @@
 /* not currently in use - is fallback formatting in case of JS incompatibility*/
-@media screen and (max-width: 576px){
-    #nav {
-    display: inline;
-    }
+#jumbotron {
+    background-color: #E9ECEF;
+}
 
-    #callout {
+
+@media screen and (max-width: 576px){
+     .callout {
         padding-top: 90px;
     }
 
 }
-
