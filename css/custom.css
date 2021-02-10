@@ -1,11 +1,18 @@
-/* not currently in use - is fallback formatting in case of JS incompatibility*/
-#jumbotron {
-    background-color: #E9ECEF;
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
 }    
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
 
 .callout-container {
     height: 100vh;
@@ -19,12 +26,56 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-
+    
 }
 
+/* not currently in use - is fallback formatting in case of JS incompatibility*/
 @media screen and (max-width: 576px){
      .callout {
         padding-top: 90px;
     }
 
 }
+
+/* block dividers*/
+
+.block-divider {
+    align-content: center;
+    width: 75px;
+    height: 5px !important;
+    border: 0;
+    opacity: 100;
+    margin: auto;
+}
+
+.block-divider--orange {
+    background-color: #d38511;
+}
+
+.block-divider-short {
+    width: 35px;
+}
+
+.jumbotron {
+    font-size: 60%;
+    font-weight: bold;
+    color: #d0d0d0;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 120%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.jumbotron .lead {
+    margin: 26px;
+    color: #a7a7a7;
+}
+
