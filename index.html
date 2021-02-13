@@ -14,38 +14,40 @@
 
 <body>
     <!--nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/" >Whiskey Drop</a>
-        
-                <button class="navbar-toggler ml-auto" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/" >Whiskey Drop</a>
+            
+                    <button class="navbar-toggler ml-auto" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto" id="nav">
-                    <li class="active nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Irish</a>
-                            <a class="dropdown-item" href="#">Scotch</a>
-                            <a class="dropdown-item" href="#">Japanese</a>
-                            <a class="dropdown-item" href="#">American</a>
-                        </div>
-                    </li>
-                    <li class="nav-item me-1 d-block d-md-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
-                </ul>
-                <div class="d-none d-md-block ms-auto">
-                    <p class="navbar-text my-auto"><i>Great Whiskey delivered to your door!</i></p>
-                </div>  
-                <div>  
-                    <a href="/login.html" class="nav-link">Sign In / Sign Up</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto" id="nav">
+                        <li class="active nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Irish</a>
+                                <a class="dropdown-item" href="#">Scotch</a>
+                                <a class="dropdown-item" href="#">Japanese</a>
+                                <a class="dropdown-item" href="#">American</a>
+                            </div>
+                        </li>
+                        <li class="nav-item me-1 d-block d-md-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
+                    </ul>
+                    <div class="d-none d-md-block ms-auto">
+                        <p class="navbar-text my-auto"><i>Great Whiskey delivered to your door!</i></p>
+                    </div>  
+                    <div>  
+                        <a href="/login.html" class="nav-link">Sign In / Sign Up</a>
+                    </div>
                 </div>
-            </div>
-    </div>            
-    </nav>
+            </div>            
+        </nav>
+    </div>
     <!--/nav-->
     <!--alert-->  
 
@@ -75,7 +77,7 @@
                             <strong><mark>First one is free!</mark></strong>
                         </p>
                         <p>
-                            <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign Up!</button>
+                            <button class="btn btn-success btn-lg btn-cta btn-red" data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign Up!</button>
                         </p>
                         <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </div>
