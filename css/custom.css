@@ -59,7 +59,19 @@ body {
     width: 35px;
 }
 
-/*navbar*/
+/*navbar*/ 
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar a {
+    font-weight: bold;
+}
 
 .navalert-container {
     position: absolute;
@@ -74,14 +86,14 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(106, 106, 106, 0.25);
 }
 
 .jumbotron {
     font-size: 60%;
     font-weight: bold;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .jumbotron-header {
