@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Roboto', sans-serif;
 }    
@@ -12,10 +10,26 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-
 }
 
+.alert {
+    margin: auto;
+}
 
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #000 !important;
+    background-color: #eec702;
+    border-color: #eec802;
+    padding: 6px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;    
+}
 
 .callout-container {
     height: 100vh;
@@ -32,12 +46,23 @@ body {
     z-index: 0;
 }
 
-/* not currently in use - is fallback formatting in case of JS incompatibility*/
+/* not currently in use - is fallback formatting for callout in case of JS incompatibility*/
 @media screen and (max-width: 576px){
      .callout {
         padding-top: 90px;
     }
+}
 
+/*Page Headers*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
 }
 
 /* block dividers*/
@@ -60,6 +85,10 @@ body {
 }
 
 /*navbar*/ 
+
+.navbar-text {
+    padding-right: 15px;
+}
 
 .navbar .navbar-toggler {
     border: 0;
