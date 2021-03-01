@@ -1,6 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
-}    
+}
+
+/* Containers */
+
+.container-wrapper-red {
+    background-color: #f05f40;
+    color: white;
+}
 
 .opaque-overlay {
     position: absolute;
@@ -61,30 +68,51 @@ body {
     text-align: center;
 }
 
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 .page-header h2 {
     margin-top: 0;
 }
 
-/* block dividers*/
+/* Block Dividers - extra styling needed to fix BS5's BS.*/
 
 .block-divider {
-    align-content: center;
     width: 75px;
     height: 5px !important;
     border: 0;
-    opacity: 100;
+    background-color: rgba(62, 62, 62, 100);
     margin: auto;
+    margin-bottom: 30px;
+    opacity: 100;
 }
 
-.block-divider--orange {
+.block-divider-orange {
     background-color: #d38511;
+}
+
+.block-divider-white {
+    background-color: white;
 }
 
 .block-divider-short {
     width: 35px;
 }
 
-/*navbar*/ 
+.block-divider-white {
+    background-color: white;
+}
+
+/*Contnent Containers*/
+
+.content-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*Navbar*/ 
 
 .navbar-text {
     padding-right: 15px;
@@ -145,6 +173,10 @@ body {
 
 /* BUTT-TONZ */
 
+.btn {
+    background-color: white;
+}
+
 .btn-cta {
     font-weight: bold;
     border-radius: 23px;
@@ -164,4 +196,25 @@ body {
     background-color: #ec3910;
     border-color: #ec3910;
     color: white;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
